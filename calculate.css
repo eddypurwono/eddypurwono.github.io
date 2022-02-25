@@ -1,0 +1,34 @@
+.container {
+     width: 500px;
+     background-color: lightgray;
+      margin: 0px auto 0px auto; 
+      padding: 10px;
+      border-radius: 4px; }
+
+     .input { width:100%;
+              box-sizing: border-box;
+              padding: 10px;
+             border: 1px solid black;
+              font-size: 25px;
+              font-weight:bold;
+              outline: none; }
+
+       .box{  display: flex;
+             flex-wrap: wrap; } 
+
+       .tombol{ display: flex;
+                  width: 20%;
+                  height: 60px;
+                  border: 1px solid black;
+                   box-sizing: border-box;
+                   font-size: 25px;
+                   font-wight: bold;
+                    justify-content:center ;
+                    align-items: center; }
+
+      .grow{flex-grow :1 ;}
+  
+      .tombol:hover{  background-color: white;
+      	             cursor: pointer; }
+
+      
