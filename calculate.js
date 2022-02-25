@@ -9,4 +9,4 @@ var tombol = document.querySelector(".box");
 		 
             else { input.value= input.value+ nilaiklik;}
 		 
-});
+}); 
