@@ -7,6 +7,6 @@ var tombol = document.querySelector(".box");
 		     else if(nilaiklik == "D") { input.value=input.value.slice('0', -1);}
                else if(nilaiklik == "=") { input.value = eval(input.value);}
 		 
-            else if{ input.value= input.value+ nilaiklik;}
-		else {input.value =eval(input.value);}
+            else { input.value= input.value+ nilaiklik;}
+		 
 });
